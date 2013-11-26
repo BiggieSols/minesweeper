@@ -52,6 +52,10 @@ class MineSweeper
       move_type = get_move_type
       evaluate_move(move_coords, move_type)
     end
+
+    print @board.inspect
+
+    puts @board.won? ? "you win!" : "you got blown up, son!"
   end
 end
 

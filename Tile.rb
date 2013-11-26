@@ -2,7 +2,7 @@ class Tile
   attr_accessor :relatives, :bomb, :display_value
 
   def self.get_random_tile
-    is_bomb = rand < 0.2
+    is_bomb = rand < 0.02
 
     Tile.new(is_bomb)
   end
@@ -34,17 +34,19 @@ class Tile
   end
 
   def to_s
-    if @bomb
-      "B"
-    else
+    # if @bomb && !@flag
+    #   "B"
+    # else
       @display_value
-    end
+    # end
   end
 
   def evaluate
     @display_value = bomb_count.to_s if bomb_count > 0
     @display_value = "_" if bomb_count == 0
     @display_value = "B" if @bomb
+    @display_value = "F" if @flag
+
     @evaluated = true
 
     puts "finished evaluating"

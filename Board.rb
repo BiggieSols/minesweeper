@@ -5,14 +5,14 @@ class Board
   end
 
   def inspect
-    str = "\n"
+    str = "      [0][1][2][3][4][5][6][7][8]\n"
     @board_grid.each_index do |row|
+      str+= "\n[#{row}]   "
       @board_grid[row].each_index do |column|
-        str += @board_grid[row][column].to_s
+        str += "[#{@board_grid[row][column].to_s}]"
       end
-      str += "\n"
     end
-    str
+    str += "\n"
   end
 
   def build_tile_graph
@@ -57,7 +57,7 @@ class Board
         # puts "Evaluating #{row_i}, #{col_i}"
         node = @board_grid[row_i][col_i]
 
-        if (!node.bomb? && node.flagged? || node.display_value == "*")
+        if (!node.bomb? && node.flagged? || !node.bomb? && !node.evaluated?)
           all_nodes_guessed = false
         end
 
