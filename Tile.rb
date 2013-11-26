@@ -13,6 +13,7 @@ class Tile
     @relatives = []
     @display_value = "*"
     @bomb = bomb
+    @no_bomb_neighbors = false
   end
 
   def method
@@ -42,15 +43,18 @@ class Tile
   end
 
   def evaluate
-    @display_value = bomb_count.to_s if bomb_count > 0
-    @display_value = "_" if bomb_count == 0
-    @display_value = "B" if @bomb
-    # @display_value = "F" if @flag
-
     @evaluated = true
 
-    if @display_value == "_"
-      puts "displaying a free node"
+    @display_value = bomb_count.to_s if bomb_count > 0
+
+    if bomb_count == 0
+      @display_value = "_"
+      @no_bomb_neighbors = true
+    end
+
+    @display_value = "B" if @bomb
+
+    if no_bomb_neighbors?
       nodes_to_eval = @relatives.select do |relative|
         !relative.flagged? && !relative.evaluated?
       end
@@ -78,5 +82,9 @@ class Tile
 
   def evaluated?
     @evaluated
+  end
+
+  def no_bomb_neighbors?
+    @no_bomb_neighbors
   end
 end

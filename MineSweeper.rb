@@ -3,6 +3,8 @@ require_relative 'Tile.rb'
 require 'yaml'
 
 class MineSweeper
+  MOVES = [:check, :flag, :save, :exit]
+
   def initialize
   end
 
@@ -45,9 +47,10 @@ class MineSweeper
     next_move = gets.chomp.split(/,\s*/).map(&:to_i)
   end
 
-  # MOVES = [:check, :flag, :save, :exit]
 
   def get_move_type
+
+
     puts "would you like to
     1. check a node
     2. flag/un-flag
@@ -55,7 +58,7 @@ class MineSweeper
     4. Exit the game
     "
 
-    move_type = gets.chomp.to_i
+    move_type = MOVES[gets.chomp.to_i-1]
   end
 
   def evaluate_move(move_coordinates, move_type)
@@ -67,7 +70,7 @@ class MineSweeper
     end
 
     case move_type
-    when 1
+    when :check
 
       if node.flagged?
         puts "you must un-flag first"
@@ -76,7 +79,7 @@ class MineSweeper
         node.evaluate
       end
 
-    when 2
+    when :flag
       node.flagged? ? node.unflag : node.flag
     end
 
@@ -90,11 +93,11 @@ class MineSweeper
 
       move_type = get_move_type
 
-      if move_type == 3
+      if move_type == :save
         save
-      elsif move_type == 4
+      elsif move_type == :exit
         return
-      else
+      elsif move_type == :flag || move_type == :check
         move_coords = get_move_coords
         evaluate_move(move_coords, move_type)
       end

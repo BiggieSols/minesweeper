@@ -10,6 +10,7 @@ class Board
       str += "\n[#{row}]   "
       @board_grid[row].each_index do |column|
         str += "[#{@board_grid[row][column].to_s}]"
+        str[-2] = "B" if (@board_grid[row][column].bomb? && won?)
       end
     end
     str += "\n"
