@@ -45,11 +45,9 @@ class Tile
     @display_value = bomb_count.to_s if bomb_count > 0
     @display_value = "_" if bomb_count == 0
     @display_value = "B" if @bomb
-    @display_value = "F" if @flag
+    # @display_value = "F" if @flag
 
     @evaluated = true
-
-    puts "finished evaluating"
 
     if @display_value == "_"
       puts "displaying a free node"
@@ -82,7 +80,3 @@ class Tile
     @evaluated
   end
 end
-
-
-
-

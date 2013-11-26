@@ -7,7 +7,7 @@ class Board
   def inspect
     str = "      [0][1][2][3][4][5][6][7][8]\n"
     @board_grid.each_index do |row|
-      str+= "\n[#{row}]   "
+      str += "\n[#{row}]   "
       @board_grid[row].each_index do |column|
         str += "[#{@board_grid[row][column].to_s}]"
       end
@@ -16,7 +16,6 @@ class Board
   end
 
   def build_tile_graph
-
     9.times do |row|
       9.times do |col|
         neighboring_coords = get_neighboring_coords( [row, col] )
@@ -40,6 +39,7 @@ class Board
         new_y = y + col_offset
 
         next if row_offset == 0 && col_offset == 0
+        # next if [new_x, new_y].any? { |coord| coord.between?(0, 8) }
         next if new_x < 0  || new_y < 0
         next if new_x > 8  || new_y > 8
         offsets << [new_x, new_y]
@@ -73,7 +73,7 @@ class Board
     (0...9).each do |row_i|
       (0...9).each do |col_i|
         node = @board_grid[row_i][col_i]
-        return true if node.display_value == "B"
+        return true if node.bomb? && node.evaluated?
       end
     end
     false

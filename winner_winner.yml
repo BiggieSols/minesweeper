@@ -1,0 +1,1111 @@
+--- !ruby/object:Board
+board_grid:
+- - &70341594982780 !ruby/object:Tile
+    flag: false
+    evaluated: true
+    relatives:
+    - &70341594980660 !ruby/object:Tile
+      flag: false
+      evaluated: true
+      relatives:
+      - *70341594982780
+      - &70341594980000 !ruby/object:Tile
+        flag: false
+        evaluated: true
+        relatives:
+        - *70341594980660
+        - &70341594977500 !ruby/object:Tile
+          flag: false
+          evaluated: true
+          relatives:
+          - *70341594980000
+          - &70341594976620 !ruby/object:Tile
+            flag: false
+            evaluated: true
+            relatives:
+            - *70341594977500
+            - &70341594975720 !ruby/object:Tile
+              flag: false
+              evaluated: true
+              relatives:
+              - *70341594976620
+              - &70341594975140 !ruby/object:Tile
+                flag: false
+                evaluated: true
+                relatives:
+                - *70341594975720
+                - &70341594664440 !ruby/object:Tile
+                  flag: false
+                  evaluated: true
+                  relatives:
+                  - *70341594975140
+                  - &70341594664020 !ruby/object:Tile
+                    flag: false
+                    evaluated: true
+                    relatives:
+                    - *70341594664440
+                    - &70341594663440 !ruby/object:Tile
+                      flag: false
+                      evaluated: true
+                      relatives:
+                      - *70341594975140
+                      - *70341594664440
+                      - *70341594664020
+                      - &70341594662000 !ruby/object:Tile
+                        flag: false
+                        evaluated: true
+                        relatives:
+                        - *70341594975720
+                        - *70341594975140
+                        - *70341594664440
+                        - &70341594661160 !ruby/object:Tile
+                          flag: false
+                          evaluated: true
+                          relatives:
+                          - *70341594976620
+                          - *70341594975720
+                          - *70341594975140
+                          - &70341594660620 !ruby/object:Tile
+                            flag: false
+                            evaluated: true
+                            relatives:
+                            - *70341594977500
+                            - *70341594976620
+                            - *70341594975720
+                            - &70341594660080 !ruby/object:Tile
+                              flag: false
+                              evaluated: true
+                              relatives:
+                              - *70341594980000
+                              - *70341594977500
+                              - *70341594976620
+                              - &70341594659680 !ruby/object:Tile
+                                flag: false
+                                evaluated: true
+                                relatives:
+                                - *70341594980660
+                                - *70341594980000
+                                - *70341594977500
+                                - &70341594659180 !ruby/object:Tile
+                                  flag: false
+                                  evaluated: true
+                                  relatives:
+                                  - *70341594982780
+                                  - *70341594980660
+                                  - *70341594980000
+                                  - &70341594674680 !ruby/object:Tile
+                                    flag: false
+                                    evaluated: true
+                                    relatives:
+                                    - *70341594982780
+                                    - *70341594980660
+                                    - *70341594659180
+                                    - &70341594672920 !ruby/object:Tile
+                                      flag: false
+                                      evaluated: true
+                                      relatives:
+                                      - *70341594674680
+                                      - *70341594659180
+                                      - &70341594671880 !ruby/object:Tile
+                                        flag: false
+                                        evaluated: true
+                                        relatives:
+                                        - *70341594674680
+                                        - *70341594659180
+                                        - *70341594659680
+                                        - *70341594672920
+                                        - &70341594671200 !ruby/object:Tile
+                                          flag: false
+                                          evaluated: true
+                                          relatives:
+                                          - *70341594659180
+                                          - *70341594659680
+                                          - *70341594660080
+                                          - *70341594671880
+                                          - &70341594670540 !ruby/object:Tile
+                                            flag: false
+                                            evaluated: true
+                                            relatives:
+                                            - *70341594659680
+                                            - *70341594660080
+                                            - *70341594660620
+                                            - *70341594671200
+                                            - &70341594669680 !ruby/object:Tile
+                                              flag: false
+                                              evaluated: true
+                                              relatives:
+                                              - *70341594660080
+                                              - *70341594660620
+                                              - *70341594661160
+                                              - *70341594670540
+                                              - &70341594667800 !ruby/object:Tile
+                                                flag: false
+                                                evaluated: true
+                                                relatives:
+                                                - *70341594660620
+                                                - *70341594661160
+                                                - *70341594662000
+                                                - *70341594669680
+                                                - &70341594993160 !ruby/object:Tile
+                                                  flag: false
+                                                  evaluated: true
+                                                  relatives:
+                                                  - *70341594661160
+                                                  - *70341594662000
+                                                  - *70341594663440
+                                                  - *70341594667800
+                                                  - &70341594992040 !ruby/object:Tile
+                                                    flag: false
+                                                    evaluated: true
+                                                    relatives:
+                                                    - *70341594662000
+                                                    - *70341594663440
+                                                    - &70341594991600 !ruby/object:Tile
+                                                      flag: false
+                                                      evaluated: true
+                                                      relatives:
+                                                      - *70341594664440
+                                                      - *70341594664020
+                                                      - *70341594663440
+                                                      - *70341594992040
+                                                      - &70341594990860 !ruby/object:Tile
+                                                        flag: false
+                                                        evaluated: true
+                                                        relatives:
+                                                        - *70341594663440
+                                                        - *70341594991600
+                                                        - *70341594992040
+                                                        - &70341594990140 !ruby/object:Tile
+                                                          flag: false
+                                                          evaluated: false
+                                                          relatives:
+                                                          - *70341594993160
+                                                          - *70341594992040
+                                                          - *70341594990860
+                                                          - &70341594988960 !ruby/object:Tile
+                                                            flag: false
+                                                            evaluated: true
+                                                            relatives:
+                                                            - *70341594667800
+                                                            - *70341594993160
+                                                            - *70341594992040
+                                                            - &70341594987960 !ruby/object:Tile
+                                                              flag: false
+                                                              evaluated: true
+                                                              relatives:
+                                                              - *70341594669680
+                                                              - *70341594667800
+                                                              - *70341594993160
+                                                              - &70341594987240 !ruby/object:Tile
+                                                                flag: false
+                                                                evaluated: true
+                                                                relatives:
+                                                                - *70341594670540
+                                                                - *70341594669680
+                                                                - *70341594667800
+                                                                - &70341594986620 !ruby/object:Tile
+                                                                  flag: false
+                                                                  evaluated: true
+                                                                  relatives:
+                                                                  - *70341594671200
+                                                                  - *70341594670540
+                                                                  - *70341594669680
+                                                                  - &70341594985460 !ruby/object:Tile
+                                                                    flag: false
+                                                                    evaluated: true
+                                                                    relatives:
+                                                                    - *70341594671880
+                                                                    - *70341594671200
+                                                                    - *70341594670540
+                                                                    - &70341594998320 !ruby/object:Tile
+                                                                      flag: false
+                                                                      evaluated: true
+                                                                      relatives:
+                                                                      - *70341594672920
+                                                                      - *70341594671880
+                                                                      - *70341594671200
+                                                                      - &70341594875260 !ruby/object:Tile
+                                                                        flag: false
+                                                                        evaluated: true
+                                                                        relatives:
+                                                                        - *70341594672920
+                                                                        - *70341594671880
+                                                                        - *70341594998320
+                                                                        - &70341594874820 !ruby/object:Tile
+                                                                          flag: false
+                                                                          evaluated: true
+                                                                          relatives:
+                                                                          - *70341594875260
+                                                                          - *70341594998320
+                                                                          - &70341594874420 !ruby/object:Tile
+                                                                            flag: false
+                                                                            evaluated: true
+                                                                            relatives:
+                                                                            - *70341594875260
+                                                                            - *70341594998320
+                                                                            - *70341594985460
+                                                                            - *70341594874820
+                                                                            - &70341594873660 !ruby/object:Tile
+                                                                              flag: false
+                                                                              evaluated: true
+                                                                              relatives:
+                                                                              - *70341594998320
+                                                                              - *70341594985460
+                                                                              - *70341594986620
+                                                                              - *70341594874420
+                                                                              - &70341594873040 !ruby/object:Tile
+                                                                                flag: false
+                                                                                evaluated: true
+                                                                                relatives:
+                                                                                - *70341594985460
+                                                                                - *70341594986620
+                                                                                - *70341594987240
+                                                                                - *70341594873660
+                                                                                - &70341594872340 !ruby/object:Tile
+                                                                                  flag: false
+                                                                                  evaluated: true
+                                                                                  relatives:
+                                                                                  - *70341594986620
+                                                                                  - *70341594987240
+                                                                                  - *70341594987960
+                                                                                  - *70341594873040
+                                                                                  - &70341594871780 !ruby/object:Tile
+                                                                                    flag: false
+                                                                                    evaluated: true
+                                                                                    relatives:
+                                                                                    - *70341594987240
+                                                                                    - *70341594987960
+                                                                                    - *70341594988960
+                                                                                    - *70341594872340
+                                                                                    - &70341594870920 !ruby/object:Tile
+                                                                                      flag: false
+                                                                                      evaluated: true
+                                                                                      relatives:
+                                                                                      - *70341594987960
+                                                                                      - *70341594988960
+                                                                                      - *70341594990140
+                                                                                      - *70341594871780
+                                                                                      - &70341594870020 !ruby/object:Tile
+                                                                                        flag: false
+                                                                                        evaluated: true
+                                                                                        relatives:
+                                                                                        - *70341594988960
+                                                                                        - *70341594990140
+                                                                                        - &70341594868880 !ruby/object:Tile
+                                                                                          flag: false
+                                                                                          evaluated: false
+                                                                                          relatives:
+                                                                                          - *70341594992040
+                                                                                          - *70341594990860
+                                                                                          - *70341594990140
+                                                                                          - *70341594870020
+                                                                                          - &70341594867420 !ruby/object:Tile
+                                                                                            flag: false
+                                                                                            evaluated: true
+                                                                                            relatives:
+                                                                                            - *70341594990140
+                                                                                            - *70341594868880
+                                                                                            - *70341594870020
+                                                                                            - &70341594882660 !ruby/object:Tile
+                                                                                              flag: false
+                                                                                              evaluated: true
+                                                                                              relatives:
+                                                                                              - *70341594870920
+                                                                                              - *70341594870020
+                                                                                              - *70341594867420
+                                                                                              - &70341594881840 !ruby/object:Tile
+                                                                                                flag: false
+                                                                                                evaluated: true
+                                                                                                relatives:
+                                                                                                - *70341594871780
+                                                                                                - *70341594870920
+                                                                                                - *70341594870020
+                                                                                                - &70341594880540 !ruby/object:Tile
+                                                                                                  flag: false
+                                                                                                  evaluated: true
+                                                                                                  relatives:
+                                                                                                  - *70341594872340
+                                                                                                  - *70341594871780
+                                                                                                  - *70341594870920
+                                                                                                  - &70341594879900 !ruby/object:Tile
+                                                                                                    flag: false
+                                                                                                    evaluated: true
+                                                                                                    relatives:
+                                                                                                    - *70341594873040
+                                                                                                    - *70341594872340
+                                                                                                    - *70341594871780
+                                                                                                    - &70341594879200 !ruby/object:Tile
+                                                                                                      flag: false
+                                                                                                      evaluated: true
+                                                                                                      relatives:
+                                                                                                      - *70341594873660
+                                                                                                      - *70341594873040
+                                                                                                      - *70341594872340
+                                                                                                      - &70341594878400 !ruby/object:Tile
+                                                                                                        flag: false
+                                                                                                        evaluated: true
+                                                                                                        relatives:
+                                                                                                        - *70341594874420
+                                                                                                        - *70341594873660
+                                                                                                        - *70341594873040
+                                                                                                        - &70341594877800 !ruby/object:Tile
+                                                                                                          flag: false
+                                                                                                          evaluated: true
+                                                                                                          relatives:
+                                                                                                          - *70341594874820
+                                                                                                          - *70341594874420
+                                                                                                          - *70341594873660
+                                                                                                          - &70341594877100 !ruby/object:Tile
+                                                                                                            flag: false
+                                                                                                            evaluated: true
+                                                                                                            relatives:
+                                                                                                            - *70341594874820
+                                                                                                            - *70341594874420
+                                                                                                            - *70341594877800
+                                                                                                            - &70341594876220 !ruby/object:Tile
+                                                                                                              flag: false
+                                                                                                              evaluated: true
+                                                                                                              relatives:
+                                                                                                              - *70341594877100
+                                                                                                              - *70341594877800
+                                                                                                              - &70341594934420 !ruby/object:Tile
+                                                                                                                flag: false
+                                                                                                                evaluated: true
+                                                                                                                relatives:
+                                                                                                                - *70341594877100
+                                                                                                                - *70341594877800
+                                                                                                                - *70341594878400
+                                                                                                                - *70341594876220
+                                                                                                                - &70341594933840 !ruby/object:Tile
+                                                                                                                  flag: false
+                                                                                                                  evaluated: true
+                                                                                                                  relatives:
+                                                                                                                  - *70341594877800
+                                                                                                                  - *70341594878400
+                                                                                                                  - *70341594879200
+                                                                                                                  - *70341594934420
+                                                                                                                  - &70341594933200 !ruby/object:Tile
+                                                                                                                    flag: false
+                                                                                                                    evaluated: true
+                                                                                                                    relatives:
+                                                                                                                    - *70341594878400
+                                                                                                                    - *70341594879200
+                                                                                                                    - *70341594879900
+                                                                                                                    - *70341594933840
+                                                                                                                    - &70341594932380 !ruby/object:Tile
+                                                                                                                      flag: false
+                                                                                                                      evaluated: true
+                                                                                                                      relatives:
+                                                                                                                      - *70341594879200
+                                                                                                                      - *70341594879900
+                                                                                                                      - *70341594880540
+                                                                                                                      - *70341594933200
+                                                                                                                      - &70341594931680 !ruby/object:Tile
+                                                                                                                        flag: false
+                                                                                                                        evaluated: true
+                                                                                                                        relatives:
+                                                                                                                        - *70341594879900
+                                                                                                                        - *70341594880540
+                                                                                                                        - *70341594881840
+                                                                                                                        - *70341594932380
+                                                                                                                        - &70341594930980 !ruby/object:Tile
+                                                                                                                          flag: false
+                                                                                                                          evaluated: true
+                                                                                                                          relatives:
+                                                                                                                          - *70341594880540
+                                                                                                                          - *70341594881840
+                                                                                                                          - *70341594882660
+                                                                                                                          - *70341594931680
+                                                                                                                          - &70341594930060 !ruby/object:Tile
+                                                                                                                            flag: false
+                                                                                                                            evaluated: true
+                                                                                                                            relatives:
+                                                                                                                            - *70341594881840
+                                                                                                                            - *70341594882660
+                                                                                                                            - &70341594929240 !ruby/object:Tile
+                                                                                                                              flag: false
+                                                                                                                              evaluated: true
+                                                                                                                              relatives:
+                                                                                                                              - *70341594870020
+                                                                                                                              - *70341594867420
+                                                                                                                              - *70341594882660
+                                                                                                                              - *70341594930060
+                                                                                                                              - &70341594928280 !ruby/object:Tile
+                                                                                                                                flag: false
+                                                                                                                                evaluated: true
+                                                                                                                                relatives:
+                                                                                                                                - *70341594882660
+                                                                                                                                - *70341594929240
+                                                                                                                                - *70341594930060
+                                                                                                                                - &70341594927480 !ruby/object:Tile
+                                                                                                                                  flag: false
+                                                                                                                                  evaluated: true
+                                                                                                                                  relatives:
+                                                                                                                                  - *70341594930980
+                                                                                                                                  - *70341594930060
+                                                                                                                                  - *70341594928280
+                                                                                                                                  - &70341594926600 !ruby/object:Tile
+                                                                                                                                    flag: false
+                                                                                                                                    evaluated: true
+                                                                                                                                    relatives:
+                                                                                                                                    - *70341594931680
+                                                                                                                                    - *70341594930980
+                                                                                                                                    - *70341594930060
+                                                                                                                                    - &70341594942020 !ruby/object:Tile
+                                                                                                                                      flag: false
+                                                                                                                                      evaluated: true
+                                                                                                                                      relatives:
+                                                                                                                                      - *70341594932380
+                                                                                                                                      - *70341594931680
+                                                                                                                                      - *70341594930980
+                                                                                                                                      - &70341594941340 !ruby/object:Tile
+                                                                                                                                        flag: false
+                                                                                                                                        evaluated: true
+                                                                                                                                        relatives:
+                                                                                                                                        - *70341594933200
+                                                                                                                                        - *70341594932380
+                                                                                                                                        - *70341594931680
+                                                                                                                                        - &70341594940220 !ruby/object:Tile
+                                                                                                                                          flag: false
+                                                                                                                                          evaluated: true
+                                                                                                                                          relatives:
+                                                                                                                                          - *70341594933840
+                                                                                                                                          - *70341594933200
+                                                                                                                                          - *70341594932380
+                                                                                                                                          - &70341594936580 !ruby/object:Tile
+                                                                                                                                            flag: false
+                                                                                                                                            evaluated: true
+                                                                                                                                            relatives:
+                                                                                                                                            - *70341594934420
+                                                                                                                                            - *70341594933840
+                                                                                                                                            - *70341594933200
+                                                                                                                                            - &70341594950100 !ruby/object:Tile
+                                                                                                                                              flag: false
+                                                                                                                                              evaluated: true
+                                                                                                                                              relatives:
+                                                                                                                                              - *70341594876220
+                                                                                                                                              - *70341594934420
+                                                                                                                                              - *70341594933840
+                                                                                                                                              - &70341594949160 !ruby/object:Tile
+                                                                                                                                                flag: false
+                                                                                                                                                evaluated: true
+                                                                                                                                                relatives:
+                                                                                                                                                - *70341594876220
+                                                                                                                                                - *70341594934420
+                                                                                                                                                - *70341594950100
+                                                                                                                                                - &70341594948000 !ruby/object:Tile
+                                                                                                                                                  flag: false
+                                                                                                                                                  evaluated: true
+                                                                                                                                                  relatives:
+                                                                                                                                                  - *70341594949160
+                                                                                                                                                  - *70341594950100
+                                                                                                                                                  - &70341594944740 !ruby/object:Tile
+                                                                                                                                                    flag: false
+                                                                                                                                                    evaluated: true
+                                                                                                                                                    relatives:
+                                                                                                                                                    - *70341594949160
+                                                                                                                                                    - *70341594950100
+                                                                                                                                                    - *70341594936580
+                                                                                                                                                    - *70341594948000
+                                                                                                                                                    - &70341594943600 !ruby/object:Tile
+                                                                                                                                                      flag: false
+                                                                                                                                                      evaluated: true
+                                                                                                                                                      relatives:
+                                                                                                                                                      - *70341594950100
+                                                                                                                                                      - *70341594936580
+                                                                                                                                                      - *70341594940220
+                                                                                                                                                      - *70341594944740
+                                                                                                                                                      - &70341595026920 !ruby/object:Tile
+                                                                                                                                                        flag: false
+                                                                                                                                                        evaluated: true
+                                                                                                                                                        relatives:
+                                                                                                                                                        - *70341594936580
+                                                                                                                                                        - *70341594940220
+                                                                                                                                                        - *70341594941340
+                                                                                                                                                        - *70341594943600
+                                                                                                                                                        - &70341595025840 !ruby/object:Tile
+                                                                                                                                                          flag: false
+                                                                                                                                                          evaluated: true
+                                                                                                                                                          relatives:
+                                                                                                                                                          - *70341594940220
+                                                                                                                                                          - *70341594941340
+                                                                                                                                                          - *70341594942020
+                                                                                                                                                          - *70341595026920
+                                                                                                                                                          - &70341595025120 !ruby/object:Tile
+                                                                                                                                                            flag: false
+                                                                                                                                                            evaluated: true
+                                                                                                                                                            relatives:
+                                                                                                                                                            - *70341594941340
+                                                                                                                                                            - *70341594942020
+                                                                                                                                                            - *70341594926600
+                                                                                                                                                            - *70341595025840
+                                                                                                                                                            - &70341595024520 !ruby/object:Tile
+                                                                                                                                                              flag: false
+                                                                                                                                                              evaluated: true
+                                                                                                                                                              relatives:
+                                                                                                                                                              - *70341594942020
+                                                                                                                                                              - *70341594926600
+                                                                                                                                                              - *70341594927480
+                                                                                                                                                              - *70341595025120
+                                                                                                                                                              - &70341595023880 !ruby/object:Tile
+                                                                                                                                                                flag: false
+                                                                                                                                                                evaluated: true
+                                                                                                                                                                relatives:
+                                                                                                                                                                - *70341594926600
+                                                                                                                                                                - *70341594927480
+                                                                                                                                                                - &70341595023040 !ruby/object:Tile
+                                                                                                                                                                  flag: false
+                                                                                                                                                                  evaluated: true
+                                                                                                                                                                  relatives:
+                                                                                                                                                                  - *70341594930060
+                                                                                                                                                                  - *70341594928280
+                                                                                                                                                                  - *70341594927480
+                                                                                                                                                                  - *70341595023880
+                                                                                                                                                                  - &70341595022560 !ruby/object:Tile
+                                                                                                                                                                    flag: false
+                                                                                                                                                                    evaluated: true
+                                                                                                                                                                    relatives:
+                                                                                                                                                                    - *70341594927480
+                                                                                                                                                                    - *70341595023040
+                                                                                                                                                                    - *70341595023880
+                                                                                                                                                                    display_value: _
+                                                                                                                                                                    bomb: false
+                                                                                                                                                                    bomb_count: 0
+                                                                                                                                                                  display_value: _
+                                                                                                                                                                  bomb: false
+                                                                                                                                                                  bomb_count: 0
+                                                                                                                                                                - *70341595024520
+                                                                                                                                                                - *70341595022560
+                                                                                                                                                                display_value: _
+                                                                                                                                                                bomb: false
+                                                                                                                                                                bomb_count: 0
+                                                                                                                                                              display_value: _
+                                                                                                                                                              bomb: false
+                                                                                                                                                              bomb_count: 0
+                                                                                                                                                            display_value: _
+                                                                                                                                                            bomb: false
+                                                                                                                                                            bomb_count: 0
+                                                                                                                                                          display_value: _
+                                                                                                                                                          bomb: false
+                                                                                                                                                          bomb_count: 0
+                                                                                                                                                        display_value: _
+                                                                                                                                                        bomb: false
+                                                                                                                                                        bomb_count: 0
+                                                                                                                                                      display_value: _
+                                                                                                                                                      bomb: false
+                                                                                                                                                      bomb_count: 0
+                                                                                                                                                    display_value: _
+                                                                                                                                                    bomb: false
+                                                                                                                                                    bomb_count: 0
+                                                                                                                                                  display_value: _
+                                                                                                                                                  bomb: false
+                                                                                                                                                  bomb_count: 0
+                                                                                                                                                - *70341594944740
+                                                                                                                                                display_value: _
+                                                                                                                                                bomb: false
+                                                                                                                                                bomb_count: 0
+                                                                                                                                              - *70341594936580
+                                                                                                                                              - *70341594948000
+                                                                                                                                              - *70341594944740
+                                                                                                                                              - *70341594943600
+                                                                                                                                              display_value: _
+                                                                                                                                              bomb: false
+                                                                                                                                              bomb_count: 0
+                                                                                                                                            - *70341594940220
+                                                                                                                                            - *70341594944740
+                                                                                                                                            - *70341594943600
+                                                                                                                                            - *70341595026920
+                                                                                                                                            display_value: _
+                                                                                                                                            bomb: false
+                                                                                                                                            bomb_count: 0
+                                                                                                                                          - *70341594941340
+                                                                                                                                          - *70341594943600
+                                                                                                                                          - *70341595026920
+                                                                                                                                          - *70341595025840
+                                                                                                                                          display_value: _
+                                                                                                                                          bomb: false
+                                                                                                                                          bomb_count: 0
+                                                                                                                                        - *70341594942020
+                                                                                                                                        - *70341595026920
+                                                                                                                                        - *70341595025840
+                                                                                                                                        - *70341595025120
+                                                                                                                                        display_value: _
+                                                                                                                                        bomb: false
+                                                                                                                                        bomb_count: 0
+                                                                                                                                      - *70341594926600
+                                                                                                                                      - *70341595025840
+                                                                                                                                      - *70341595025120
+                                                                                                                                      - *70341595024520
+                                                                                                                                      display_value: _
+                                                                                                                                      bomb: false
+                                                                                                                                      bomb_count: 0
+                                                                                                                                    - *70341594927480
+                                                                                                                                    - *70341595025120
+                                                                                                                                    - *70341595024520
+                                                                                                                                    - *70341595023880
+                                                                                                                                    display_value: _
+                                                                                                                                    bomb: false
+                                                                                                                                    bomb_count: 0
+                                                                                                                                  - *70341595023040
+                                                                                                                                  - *70341595024520
+                                                                                                                                  - *70341595023880
+                                                                                                                                  - *70341595022560
+                                                                                                                                  display_value: _
+                                                                                                                                  bomb: false
+                                                                                                                                  bomb_count: 0
+                                                                                                                                - *70341595023040
+                                                                                                                                display_value: _
+                                                                                                                                bomb: false
+                                                                                                                                bomb_count: 0
+                                                                                                                              display_value: _
+                                                                                                                              bomb: false
+                                                                                                                              bomb_count: 0
+                                                                                                                            - *70341594930980
+                                                                                                                            - *70341594928280
+                                                                                                                            - *70341594926600
+                                                                                                                            - *70341594927480
+                                                                                                                            - *70341595023040
+                                                                                                                            display_value: _
+                                                                                                                            bomb: false
+                                                                                                                            bomb_count: 0
+                                                                                                                          - *70341594942020
+                                                                                                                          - *70341594926600
+                                                                                                                          - *70341594927480
+                                                                                                                          display_value: _
+                                                                                                                          bomb: false
+                                                                                                                          bomb_count: 0
+                                                                                                                        - *70341594941340
+                                                                                                                        - *70341594942020
+                                                                                                                        - *70341594926600
+                                                                                                                        display_value: _
+                                                                                                                        bomb: false
+                                                                                                                        bomb_count: 0
+                                                                                                                      - *70341594940220
+                                                                                                                      - *70341594941340
+                                                                                                                      - *70341594942020
+                                                                                                                      display_value: _
+                                                                                                                      bomb: false
+                                                                                                                      bomb_count: 0
+                                                                                                                    - *70341594936580
+                                                                                                                    - *70341594940220
+                                                                                                                    - *70341594941340
+                                                                                                                    display_value: _
+                                                                                                                    bomb: false
+                                                                                                                    bomb_count: 0
+                                                                                                                  - *70341594950100
+                                                                                                                  - *70341594936580
+                                                                                                                  - *70341594940220
+                                                                                                                  display_value: _
+                                                                                                                  bomb: false
+                                                                                                                  bomb_count: 0
+                                                                                                                - *70341594949160
+                                                                                                                - *70341594950100
+                                                                                                                - *70341594936580
+                                                                                                                display_value: _
+                                                                                                                bomb: false
+                                                                                                                bomb_count: 0
+                                                                                                              - *70341594949160
+                                                                                                              - *70341594950100
+                                                                                                              display_value: _
+                                                                                                              bomb: false
+                                                                                                              bomb_count: 0
+                                                                                                            - *70341594934420
+                                                                                                            display_value: _
+                                                                                                            bomb: false
+                                                                                                            bomb_count: 0
+                                                                                                          - *70341594878400
+                                                                                                          - *70341594876220
+                                                                                                          - *70341594934420
+                                                                                                          - *70341594933840
+                                                                                                          display_value: _
+                                                                                                          bomb: false
+                                                                                                          bomb_count: 0
+                                                                                                        - *70341594879200
+                                                                                                        - *70341594934420
+                                                                                                        - *70341594933840
+                                                                                                        - *70341594933200
+                                                                                                        display_value: _
+                                                                                                        bomb: false
+                                                                                                        bomb_count: 0
+                                                                                                      - *70341594879900
+                                                                                                      - *70341594933840
+                                                                                                      - *70341594933200
+                                                                                                      - *70341594932380
+                                                                                                      display_value: _
+                                                                                                      bomb: false
+                                                                                                      bomb_count: 0
+                                                                                                    - *70341594880540
+                                                                                                    - *70341594933200
+                                                                                                    - *70341594932380
+                                                                                                    - *70341594931680
+                                                                                                    display_value: _
+                                                                                                    bomb: false
+                                                                                                    bomb_count: 0
+                                                                                                  - *70341594881840
+                                                                                                  - *70341594932380
+                                                                                                  - *70341594931680
+                                                                                                  - *70341594930980
+                                                                                                  display_value: _
+                                                                                                  bomb: false
+                                                                                                  bomb_count: 0
+                                                                                                - *70341594882660
+                                                                                                - *70341594931680
+                                                                                                - *70341594930980
+                                                                                                - *70341594930060
+                                                                                                display_value: _
+                                                                                                bomb: false
+                                                                                                bomb_count: 0
+                                                                                              - *70341594929240
+                                                                                              - *70341594930980
+                                                                                              - *70341594930060
+                                                                                              - *70341594928280
+                                                                                              display_value: _
+                                                                                              bomb: false
+                                                                                              bomb_count: 0
+                                                                                            - *70341594929240
+                                                                                            display_value: '1'
+                                                                                            bomb: false
+                                                                                            bomb_count: 1
+                                                                                          display_value: ! '*'
+                                                                                          bomb: false
+                                                                                        - *70341594870920
+                                                                                        - *70341594867420
+                                                                                        - *70341594881840
+                                                                                        - *70341594882660
+                                                                                        - *70341594929240
+                                                                                        display_value: '1'
+                                                                                        bomb: false
+                                                                                        bomb_count: 1
+                                                                                      - *70341594880540
+                                                                                      - *70341594881840
+                                                                                      - *70341594882660
+                                                                                      display_value: '1'
+                                                                                      bomb: false
+                                                                                      bomb_count: 1
+                                                                                    - *70341594879900
+                                                                                    - *70341594880540
+                                                                                    - *70341594881840
+                                                                                    display_value: _
+                                                                                    bomb: false
+                                                                                    bomb_count: 0
+                                                                                  - *70341594879200
+                                                                                  - *70341594879900
+                                                                                  - *70341594880540
+                                                                                  display_value: _
+                                                                                  bomb: false
+                                                                                  bomb_count: 0
+                                                                                - *70341594878400
+                                                                                - *70341594879200
+                                                                                - *70341594879900
+                                                                                display_value: _
+                                                                                bomb: false
+                                                                                bomb_count: 0
+                                                                              - *70341594877800
+                                                                              - *70341594878400
+                                                                              - *70341594879200
+                                                                              display_value: _
+                                                                              bomb: false
+                                                                              bomb_count: 0
+                                                                            - *70341594877100
+                                                                            - *70341594877800
+                                                                            - *70341594878400
+                                                                            display_value: _
+                                                                            bomb: false
+                                                                            bomb_count: 0
+                                                                          - *70341594877100
+                                                                          - *70341594877800
+                                                                          display_value: _
+                                                                          bomb: false
+                                                                          bomb_count: 0
+                                                                        - *70341594874420
+                                                                        display_value: _
+                                                                        bomb: false
+                                                                        bomb_count: 0
+                                                                      - *70341594985460
+                                                                      - *70341594874820
+                                                                      - *70341594874420
+                                                                      - *70341594873660
+                                                                      display_value: _
+                                                                      bomb: false
+                                                                      bomb_count: 0
+                                                                    - *70341594986620
+                                                                    - *70341594874420
+                                                                    - *70341594873660
+                                                                    - *70341594873040
+                                                                    display_value: _
+                                                                    bomb: false
+                                                                    bomb_count: 0
+                                                                  - *70341594987240
+                                                                  - *70341594873660
+                                                                  - *70341594873040
+                                                                  - *70341594872340
+                                                                  display_value: _
+                                                                  bomb: false
+                                                                  bomb_count: 0
+                                                                - *70341594987960
+                                                                - *70341594873040
+                                                                - *70341594872340
+                                                                - *70341594871780
+                                                                display_value: _
+                                                                bomb: false
+                                                                bomb_count: 0
+                                                              - *70341594988960
+                                                              - *70341594872340
+                                                              - *70341594871780
+                                                              - *70341594870920
+                                                              display_value: _
+                                                              bomb: false
+                                                              bomb_count: 0
+                                                            - *70341594990140
+                                                            - *70341594871780
+                                                            - *70341594870920
+                                                            - *70341594870020
+                                                            display_value: '1'
+                                                            bomb: false
+                                                            bomb_count: 1
+                                                          - *70341594868880
+                                                          - *70341594870920
+                                                          - *70341594870020
+                                                          - *70341594867420
+                                                          display_value: ! '*'
+                                                          bomb: true
+                                                        - *70341594868880
+                                                        display_value: '1'
+                                                        bomb: false
+                                                        bomb_count: 1
+                                                      display_value: _
+                                                      bomb: false
+                                                      bomb_count: 0
+                                                    - *70341594993160
+                                                    - *70341594990860
+                                                    - *70341594988960
+                                                    - *70341594990140
+                                                    - *70341594868880
+                                                    display_value: '1'
+                                                    bomb: false
+                                                    bomb_count: 1
+                                                  - *70341594987960
+                                                  - *70341594988960
+                                                  - *70341594990140
+                                                  display_value: '1'
+                                                  bomb: false
+                                                  bomb_count: 1
+                                                - *70341594987240
+                                                - *70341594987960
+                                                - *70341594988960
+                                                display_value: _
+                                                bomb: false
+                                                bomb_count: 0
+                                              - *70341594986620
+                                              - *70341594987240
+                                              - *70341594987960
+                                              display_value: _
+                                              bomb: false
+                                              bomb_count: 0
+                                            - *70341594985460
+                                            - *70341594986620
+                                            - *70341594987240
+                                            display_value: _
+                                            bomb: false
+                                            bomb_count: 0
+                                          - *70341594998320
+                                          - *70341594985460
+                                          - *70341594986620
+                                          display_value: _
+                                          bomb: false
+                                          bomb_count: 0
+                                        - *70341594875260
+                                        - *70341594998320
+                                        - *70341594985460
+                                        display_value: _
+                                        bomb: false
+                                        bomb_count: 0
+                                      - *70341594875260
+                                      - *70341594998320
+                                      display_value: _
+                                      bomb: false
+                                      bomb_count: 0
+                                    - *70341594671880
+                                    display_value: _
+                                    bomb: false
+                                    bomb_count: 0
+                                  - *70341594659680
+                                  - *70341594672920
+                                  - *70341594671880
+                                  - *70341594671200
+                                  display_value: _
+                                  bomb: false
+                                  bomb_count: 0
+                                - *70341594660080
+                                - *70341594671880
+                                - *70341594671200
+                                - *70341594670540
+                                display_value: _
+                                bomb: false
+                                bomb_count: 0
+                              - *70341594660620
+                              - *70341594671200
+                              - *70341594670540
+                              - *70341594669680
+                              display_value: _
+                              bomb: false
+                              bomb_count: 0
+                            - *70341594661160
+                            - *70341594670540
+                            - *70341594669680
+                            - *70341594667800
+                            display_value: _
+                            bomb: false
+                            bomb_count: 0
+                          - *70341594662000
+                          - *70341594669680
+                          - *70341594667800
+                          - *70341594993160
+                          display_value: _
+                          bomb: false
+                          bomb_count: 0
+                        - *70341594663440
+                        - *70341594667800
+                        - *70341594993160
+                        - *70341594992040
+                        display_value: _
+                        bomb: false
+                        bomb_count: 0
+                      - *70341594991600
+                      - *70341594993160
+                      - *70341594992040
+                      - *70341594990860
+                      display_value: _
+                      bomb: false
+                      bomb_count: 0
+                    - *70341594991600
+                    display_value: _
+                    bomb: false
+                    bomb_count: 0
+                  - *70341594662000
+                  - *70341594663440
+                  - *70341594991600
+                  display_value: _
+                  bomb: false
+                  bomb_count: 0
+                - *70341594661160
+                - *70341594662000
+                - *70341594663440
+                display_value: _
+                bomb: false
+                bomb_count: 0
+              - *70341594660620
+              - *70341594661160
+              - *70341594662000
+              display_value: _
+              bomb: false
+              bomb_count: 0
+            - *70341594660080
+            - *70341594660620
+            - *70341594661160
+            display_value: _
+            bomb: false
+            bomb_count: 0
+          - *70341594659680
+          - *70341594660080
+          - *70341594660620
+          display_value: _
+          bomb: false
+          bomb_count: 0
+        - *70341594659180
+        - *70341594659680
+        - *70341594660080
+        display_value: _
+        bomb: false
+        bomb_count: 0
+      - *70341594674680
+      - *70341594659180
+      - *70341594659680
+      display_value: _
+      bomb: false
+      bomb_count: 0
+    - *70341594674680
+    - *70341594659180
+    display_value: _
+    bomb: false
+    bomb_count: 0
+  - *70341594980660
+  - *70341594980000
+  - *70341594977500
+  - *70341594976620
+  - *70341594975720
+  - *70341594975140
+  - *70341594664440
+  - *70341594664020
+- - *70341594674680
+  - *70341594659180
+  - *70341594659680
+  - *70341594660080
+  - *70341594660620
+  - *70341594661160
+  - *70341594662000
+  - *70341594663440
+  - *70341594991600
+- - *70341594672920
+  - *70341594671880
+  - *70341594671200
+  - *70341594670540
+  - *70341594669680
+  - *70341594667800
+  - *70341594993160
+  - *70341594992040
+  - *70341594990860
+- - *70341594875260
+  - *70341594998320
+  - *70341594985460
+  - *70341594986620
+  - *70341594987240
+  - *70341594987960
+  - *70341594988960
+  - *70341594990140
+  - *70341594868880
+- - *70341594874820
+  - *70341594874420
+  - *70341594873660
+  - *70341594873040
+  - *70341594872340
+  - *70341594871780
+  - *70341594870920
+  - *70341594870020
+  - *70341594867420
+- - *70341594877100
+  - *70341594877800
+  - *70341594878400
+  - *70341594879200
+  - *70341594879900
+  - *70341594880540
+  - *70341594881840
+  - *70341594882660
+  - *70341594929240
+- - *70341594876220
+  - *70341594934420
+  - *70341594933840
+  - *70341594933200
+  - *70341594932380
+  - *70341594931680
+  - *70341594930980
+  - *70341594930060
+  - *70341594928280
+- - *70341594949160
+  - *70341594950100
+  - *70341594936580
+  - *70341594940220
+  - *70341594941340
+  - *70341594942020
+  - *70341594926600
+  - *70341594927480
+  - *70341595023040
+- - *70341594948000
+  - *70341594944740
+  - *70341594943600
+  - *70341595026920
+  - *70341595025840
+  - *70341595025120
+  - *70341595024520
+  - *70341595023880
+  - *70341595022560
