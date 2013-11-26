@@ -40,9 +40,8 @@ class Board
         new_y = y + col_offset
 
         next if row_offset == 0 && col_offset == 0
-        # next if [new_x, new_y].any? { |coord| coord.between?(0, 8) }
-        next if new_x < 0  || new_y < 0
-        next if new_x > 8  || new_y > 8
+        next if new_x < 0 || new_y < 0
+        next if new_x > 8 || new_y > 8
         offsets << [new_x, new_y]
       end
     end
@@ -55,7 +54,6 @@ class Board
 
     (0...9).each do |row_i|
       (0...9).each do |col_i|
-        # puts "Evaluating #{row_i}, #{col_i}"
         node = @board_grid[row_i][col_i]
 
         if (!node.bomb? && node.flagged? || !node.bomb? && !node.evaluated?)

@@ -35,11 +35,7 @@ class Tile
   end
 
   def to_s
-    # if @bomb && !@flag
-    #   "B"
-    # else
-      @display_value
-    # end
+    @display_value
   end
 
   def evaluate
